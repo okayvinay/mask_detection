@@ -47,4 +47,19 @@ I also use Data Augmentation here
 ## Convolutional Neural Networks 
 Convolutional Neural Networks are great for image classification, I built a 3 layer CNN using RELU for my activation function. Below you will see an illustration of my model
 
-![alt text](https://github.com/okayvinay/mask_detection/blob/main/img/augmented.png)
+![alt text](https://github.com/okayvinay/mask_detection/blob/main/img/Screen%20Shot%202021-01-14%20at%2012.39.50%20PM.png)
+
+From left to right we have an input layer where the image is received in and passed through each convolutional layer and pooling layer and then finally being output and a probability is assigned to the classification. 
+
+Below you can see more detail of what happens in each convolutional layer. 
+
+![alt text](https://github.com/okayvinay/mask_detection/blob/main/img/Screen%20Shot%202021-01-14%20at%2012.40.04%20PM.png)
+
+In each convolutional layer a "filter" slides or "convolves" over the image to match patterns, edges, shapes, and textures. The deeper the network the more complex objects can be identified including facial features, whole dogs, lizards, or other objects. 
+
+
+## Results 
+The results were very surprising and suspicious, I only had 18 misclassifications and an accuracy of 96%. This is unusually high for such a shallow CNN. 
+
+![https://github.com/okayvinay/mask_detection/blob/main/img/confusion_matrix.png]
+
