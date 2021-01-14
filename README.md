@@ -63,3 +63,29 @@ The results were very surprising and suspicious, I only had 18 misclassification
 
 ![alt test](https://github.com/okayvinay/mask_detection/blob/main/img/confusion_matrix.png)
 
+I found these results very suspicious! 
+
+Lets take a look at the missclassifications to see if we can get to the bottom of this. 
+
+### Missclassifications 
+
+Here we see three of our missclassifications.
+The first image on the left has two people in it one without a mask and one with a mask worn incorrectly, its possible the network has gotten confused between both of the people in the photo and it is reasonable to assume that this is the reason that this was classified as no mask. 
+
+The picture in the middle is one of a baby, after combing though the data set I found that this is the only image of a baby in the entire data set, I believe that the model has not "seen" enough images of this type in order to learn its features. This photo is also in grayscale which may have had some effect as well. Finally at the very bottom of the image you see a slight watermark on the image this could have been picked up by the model. 
+
+The third image is more interesting, he is clearly wearing the mask incorrectly. After looking through more missclassifications I saw similiar images in this class being classified incorrectly. 
+
+![alt test](https://github.com/okayvinay/mask_detection/blob/main/img/Screen%20Shot%202021-01-14%20at%203.02.25%20PM.png)
+
+
+Lets take a further look into the incorrect mask class in the data set. 
+
+### Deeper dive
+
+![alt test](https://github.com/okayvinay/mask_detection/blob/main/img/Screen%20Shot%202021-01-14%20at%203.02.43%20PM.png)
+
+After looking through the data set I found many images in this style, can you see what these images have in common? 
+
+
+
