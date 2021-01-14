@@ -34,4 +34,4 @@ This dataset set contains 2089 images.
 
 ### Distribution of Data
 
-![alt text](/Users/Vinay/galvanize/capstone_3/img/train_dist.png) 
+![alt text](https://github.com/okayvinay/mask_detection/blob/main/img/train_dist.png) 
