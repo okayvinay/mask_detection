@@ -34,4 +34,17 @@ This dataset set contains 2089 images.
 
 ### Distribution of Data
 
+You can see that my data has a fairly even distribution, so we have no issues with unbalanced classes.
+
 ![alt text](https://github.com/okayvinay/mask_detection/blob/main/img/train_dist.png) ![alt text](https://github.com/okayvinay/mask_detection/blob/main/img/Validation_dist.png)
+
+Here the data is split 80/20 for training and validation. I used Keras Tensorflow to read in the image and apply some preprocessing. 
+
+I also use Data Augmentation here
+![alt text](https://github.com/okayvinay/mask_detection/blob/main/img/augmented.png)
+
+
+## Convolutional Neural Networks 
+Convolutional Neural Networks are great for image classification, I built a 3 layer CNN using RELU for my activation function. Below you will see an illustration of my model
+
+![alt text](https://github.com/okayvinay/mask_detection/blob/main/img/augmented.png)
