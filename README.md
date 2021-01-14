@@ -61,5 +61,5 @@ In each convolutional layer a "filter" slides or "convolves" over the image to m
 ## Results 
 The results were very surprising and suspicious, I only had 18 misclassifications and an accuracy of 96%. This is unusually high for such a shallow CNN. 
 
-![https://github.com/okayvinay/mask_detection/blob/main/img/confusion_matrix.png]
+![alt test](https://github.com/okayvinay/mask_detection/blob/main/img/confusion_matrix.png)
 
