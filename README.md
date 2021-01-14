@@ -87,5 +87,18 @@ Lets take a further look into the incorrect mask class in the data set.
 
 After looking through the data set I found many images in this style, can you see what these images have in common? 
 
+![alt test](https://github.com/okayvinay/mask_detection/blob/main/img/Screen%20Shot%202021-01-14%20at%203.02.58%20PM.png)
+
+We can clearly see that all these images have the same water mark, after looking through more images it has become painfully obvious that this dataset is biased with watermarks. Since the majority of the images in this class have this water mark this explains the high accuracy and low missclassification rate. 
+
+
+## Conclusion 
+Now there are many ways to proceed, we can use object detection to detect the faces of the people in the photos and then input those into a CNN. 
+
+Ultimately I have decided to get a new data set. 
+
+In my next steps I will be scraping images from instagram using hashtags to find the photos. Now this is a more manual process but this will fix my bias problem with the dataset and I will be able to build a more robust model. 
+
+My stretch goal is build a model that will work on live or recorded video, where we can detect multiple faces in a video and classify how many are wearing masks correctly, incorrectly or not at all.
 
 
